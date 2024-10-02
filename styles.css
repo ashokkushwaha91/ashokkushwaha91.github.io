@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+header {
+    text-align: center;
+}
+
+.portfolio-section {
+    margin: 40px 0;
+}
+
+.project {
+    margin-bottom: 50px;
+}
+
+.project img {
+    width: 200px;
+    height: auto;
+}
+
+.project h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.project p {
+    font-size: 16px;
+}
