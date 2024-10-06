@@ -3,41 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ashok Kushwaha Portfolio</title>
+    <title>Continuous Slider</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Ashok Kushwaha Portfolio</h1>
-        <p>Flutter & Android Developer</p>
-    </header>
-    
-    <section class="portfolio-section">
-        <h2>Projects</h2>
-
-        <div class="project">
-            <h2>DKD App</h2>
-            <img src="dkd-app-thumbnail.png" alt="DKD App Screenshot">
-            <p>DKD is an enterprise-level app providing real-time tracking solutions for logistics and distribution.</p>
-            <p><strong>Technologies Used:</strong> Flutter, Dart, Firebase</p>
-            <p><a href="dkd.html">View Screenshot</a></p>
+<div class="container">
+    <div class="profile-section">
+        <div class="profile-info">
+            <img src="images/profile.jpg" alt="Profile Picture" class="profile-pic">
+            <h2>Ashok Kumar</h2>
+            <div class="profile-info2">
+                <div class="contact-info">
+                    <img class="icon" src="images/email.svg" alt="LinkedIn Icon"/>
+                    <span class="subtitle">ashokkushwaha8252@gmail.com</span>
+                </div>
+                <div class="contact-info">
+                    <img class="icon" src="images/linkedin.png" alt="LinkedIn Icon"/>
+                    <span class="subtitle">ashok-kushwaha</span>
+                </div>
+                <div class="contact-info">
+                    <img class="icon" src="images/mobile.png" alt="Mobile Icon"/>
+                    <span class="subtitle">9780975587</span>
+                </div>
+                <div class="contact-info">
+                    <img class="icon" src="images/whatsapp.png" alt="WhatsApp Icon"/>
+                    <span class="subtitle">9780975587</span>
+                </div>
+            </div>
         </div>
 
-        <div class="project">
-            <h2>Andata</h2>
-            <img src="andata-app-thumbnail.png" alt="Andata App Screenshot">
-            <p>Andata is a mobile application focused on collecting and analyzing data from various sectors.</p>
-            <p><strong>Technologies Used:</strong> Kotlin, Firebase, REST APIs</p>
-            <p><a href="andata.html">View Screenshot</a></p>
+        <!-- Slider container -->
+        <div class="theme-image">
+            <div class="slides">
+                <div class="slide">
+                    <img src="images/design-stunning-app-using-flutter.jpg" alt="Slide 1" class="theme-img">
+                </div>
+                <div class="slide">
+                    <img src="images/design-stunning-app-using-flutter.jpg" alt="Slide 2" class="theme-img">
+                </div>
+                <div class="slide">
+                    <img src="images/design-stunning-app-using-flutter.jpg" alt="Slide 3" class="theme-img">
+                </div>
+            </div>
+            <div class="slider-indicators">
+                <div class="indicator active" data-index="0"></div>
+                <div class="indicator" data-index="1"></div>
+                <div class="indicator" data-index="2"></div>
+            </div>
         </div>
+    </div>
 
-        <div class="project">
-            <h2>Sumadhu</h2>
-            <img src="sumadhu-app-thumbnail.png" alt="Sumadhu App Screenshot">
-            <p>Sumadhu is an app designed for managing microfinance services.</p>
-            <p><strong>Technologies Used:</strong> Android, Kotlin, Room Database</p>
-            <p><a href="sumadhu.html">View Screenshot</a></p>
+    <h4 class="content">A dedicated and results-oriented Android Developer, seeking to leverage my skills in mobile application development to contribute effectively to an innovative organization. I aim to utilize my strong technical abilities, attention to detail, and multitasking skills to enhance both the company's success and my professional growth.</h4>
+    <hr>
+    <h2 class="heading">Projects</h2>
+    <hr>
+    <div class="app-details">
+        <div class="image">
+            <img src="images/sumadhu.png" alt="App Image">
         </div>
-    </section>
+        <div class="description">
+            <h2>Honey Traceability & Value Chain System</h2>
+            <br>
+            <p>Traceability ascertains the visibility of commodity right from its origin to the end of its life cycle by collecting the data of transactions at each step</p>
+            <p><button class="view-button" onclick="window.location.href = 'sumadhu.html'">View Details</button></p>
+        </div>
+    </div>
+    <hr/>
+    <div class="app-details">
+        <div class="image">
+            <img src="images/sumadhu.png" alt="App Image">
+        </div>
+        <div class="description">
+            <h2>Annadata-Smart Farming App</h2>
+            <br>
+            <p>Traceability ascertains the visibility of commodity right from its origin to the end of its life cycle by collecting the data of transactions at each step</p>
+            <p><button class="view-button" onclick="window.location.href = 'andata.html'">View Details</button></p>
+        </div>
+    </div>
+    <hr/>
+    <div class="app-details">
+        <div class="image">
+            <img src="images/sumadhu.png" alt="App Image">
+        </div>
+        <div class="description">
+            <h2>Dharti ka Doctor</h2>
+            <br>
+            <p>Traceability ascertains the visibility of commodity right from its origin to the end of its life cycle by collecting the data of transactions at each step</p>
+            <p><button class="view-button" onclick="window.location.href = 'dkd.html'">View Details</button></p>
+        </div>
+    </div>
+</div>
+
+<!-- JavaScript for slider -->
+<script src="script.js"></script>
 </body>
 </html>

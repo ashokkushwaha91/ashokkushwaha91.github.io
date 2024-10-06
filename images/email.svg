@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" viewBox="0 0 32 32" id="email">
+  <g id="style_1_copy">
+    <path fill="#CCC" d="M16-.005c-8.837 0-16 7.163-16 16 0 8.836 7.163 16 16 16s16-7.164 16-16c0-8.837-7.163-16-16-16z"></path>
+    <path fill="#1A1718" d="M16 1.353c-8.086 0-14.641 6.555-14.641 14.641S7.914 30.635 16 30.635s14.641-6.555 14.641-14.641c0-8.085-6.555-14.641-14.641-14.641z"></path>
+    <g>
+      <defs>
+        <path id="SVGID_79_" d="M16 0C7.163 0 0 7.163 0 16c0 8.836 7.163 16 16 16s16-7.164 16-16c0-8.837-7.163-16-16-16z"></path>
+      </defs>
+      <clipPath id="SVGID_4_">
+        <use xlink:href="#SVGID_79_" overflow="visible"></use>
+      </clipPath>
+      <path fill="#FFF" fill-rule="evenodd" d="M0 32V0h32" clip-path="url(#SVGID_4_)" clip-rule="evenodd" opacity=".2"></path>
+    </g>
+  </g>
+  <g id="style_1_1_" fill="#FFF">
+    <path d="M16 15.586l9.195-4.846c-.126-.502-.561-.885-1.101-.885H7.906c-.54 0-.976.383-1.101.885L16 15.586z"></path>
+    <path d="m15.936 16.513-2.303-1.214-4.874 6.846h14.468l-4.873-6.839L16 16.547zM19.113 14.907l5.134 7.207a1.145 1.145 0 0 0 1.003-1.125v-9.317l-6.137 3.235zM7.74 22.111l5.135-7.211-6.125-3.228v9.316c0 .578.435 1.039.99 1.123z"></path>
+  </g>
+</svg>
